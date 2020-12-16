@@ -39,35 +39,59 @@
     background: white;
     padding: 3rem;
   }
+
 </style>
 </head>
 
 <body>
-  <div class="section hero">
-    <div class="container">
-      <div class="row">
-        <div class="one-half column">
-          <h4 class="hero-heading">Stop coding non-responsive sites. Let users view sites from anywhere.</h4>
-          <a class="button button-primary" href="http://getskeleton.com">Try Skeleton</a>
-        </div>
-        <div class="one-half column phones">
-          <img class="phone" src="images/iphone.png">
-          <img class="phone" src="images/iphone.png">
-        </div>
+<!--<div class="section hero">
+  <div class="container">
+    <div class="row">
+      <div class="one-half column">
+        <h4 class="hero-heading">Stop coding non-responsive sites. Let users view sites from anywhere.</h4>
+        <a class="button button-primary" href="http://getskeleton.com">Try Skeleton</a>
+      </div>
+      <div class="one-half column phones">
+        <img class="phone" src="images/iphone.png">
+        <img class="phone" src="images/iphone.png">
       </div>
     </div>
   </div>
+</div>-->
+
+<div class="container">
+  <form>
+    <div class="row">
+      <div class="three columns">
+        <label for="exampleEmailInput">料理名</label>
+        <input class="u-full-width" type="text" placeholder="料理名を入力してください" id="exampleEmailInput">
+      </div>
+      <div class="three columns">
+        <label for="exampleRecipientInput">カテゴリ</label>
+        <select class="u-full-width" id="exampleRecipientInput" name="category">
+          <option value="">選択してください</option>
+          <option value="1">和食</option>
+          <option value="2">中華</option>
+          <option value="3">洋食</option>
+        </select>
+      </div>
+      <div class="three columns">
+        <label for="exampleEmailInput">料理名</label>
+        <input type="radio" name="difficulty" value="簡単"><input type="radio" name="difficulty" value="普通"><input type="radio" name="difficulty" value="難しい">
+      </div>
+    </div>
+    <label for="exampleMessage">難易度</label>
+    <textarea class="u-full-width" placeholder="Hi Dave …" id="exampleMessage"></textarea>
+    <label class="example-send-yourself-copy"> <input type="checkbox"> <span class="label-body">Send a copy to yourself</span> </label>
+    <input class="button-primary" type="submit" value="Submit">
+  </form>
+</div>
 
 
-
-
-
-<div>ボックスのサイズは？</div>
-
-<div class="parent">
+<!--<div class="parent">
   <div>
     <h4>入力</h4>
-    <!--<form method="post" action="receive.php">
+    <form method="post" action="receive.php">
       項目名：<input type="text" name="recipe_name" required>
       <br>
       <div class="row">
@@ -87,34 +111,8 @@
       <br>
 
       <input type="submit" value="送信" class="button-primary">
-    </form>-->
-<div class="container">
-    <form>
-      <div class="row">
-        <div class="six columns">
-          <label for="exampleEmailInput">Your email</label>
-          <input class="u-full-width" type="email" placeholder="test@mailbox.com" id="exampleEmailInput">
-        </div>
-        <div class="six columns">
-          <label for="exampleRecipientInput">Reason for contacting</label>
-          <select class="u-full-width" id="exampleRecipientInput">
-            <option value="Option 1">Questions</option>
-            <option value="Option 2">Admiration</option>
-            <option value="Option 3">Can I get your number?</option>
-          </select>
-        </div>
-      </div>
-      <label for="exampleMessage">Message</label>
-      <textarea class="u-full-width" placeholder="Hi Dave …" id="exampleMessage"></textarea>
-      <label class="example-send-yourself-copy"> <input type="checkbox"> <span class="label-body">Send a copy to yourself</span> </label>
-      <input class="button-primary" type="submit" value="Submit">
     </form>
-    </div>
   </div>
-
-
-
-
   <h1>見出しh1</h1>
   <h2>見出しh2</h2>
   <h3>見出しh3</h3>
@@ -128,8 +126,10 @@
   <p style="font-size:3rem">フォントサイズは3rem</p>
   <p style="font-size:4rem">フォントサイズは4rem</p>
   <p style="font-size:5rem">フォントサイズは5rem</p>
-  <p style="font-size:6rem">フォントサイズは6rem</p>
-</div>
+  <p style="font-size:6rem">フォントサイズは6rem</p>-->
 
 
-</body></html>
+
+</body>
+
+</html>
