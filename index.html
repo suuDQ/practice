@@ -60,7 +60,7 @@
 </div>-->
 
 <div class="container">
-  <form>
+  <form method="post" action="receive.php">
     <div class="row">
       <div class="three columns">
         <label for="exampleEmailInput">料理名</label>
@@ -76,8 +76,8 @@
         </select>
       </div>
       <div class="three columns">
-        <label for="exampleEmailInput">料理名</label>
-        <input type="radio" name="difficulty" value="簡単"><input type="radio" name="difficulty" value="普通"><input type="radio" name="difficulty" value="難しい">
+        <label for="exampleEmailInput">難易度</label>
+        <input type="radio" name="difficulty" value="簡単">簡単<input type="radio" name="difficulty" value="普通">普通<input type="radio" name="difficulty" value="難しい">難しい
       </div>
     </div>
     <label for="exampleMessage">難易度</label>
