@@ -40,7 +40,8 @@
     padding: 3rem;
   }
 
-</style>
+  label{display:inline;margin-bottom: auto;font-weight: normal}
+  </style>
 </head>
 
 <body>
@@ -76,8 +77,10 @@
         </select>
       </div>
       <div class="three columns">
-        <label for="exampleEmailInput">難易度</label>
-        <input type="radio" name="difficulty" value="簡単">簡単<input type="radio" name="difficulty" value="普通">普通<input type="radio" name="difficulty" value="難しい">難しい
+        <label for="radio1">難易度</label><br>
+        <label for="radio1"><input type="radio" name="difficulty" value="簡単" id="radio1">簡単</label>
+        <label for="radio2"><input type="radio" name="difficulty" value="普通" id="radio2">普通</label>
+        <label for="radio3"><input type="radio" name="difficulty" value="難しい" id="radio3">難しい</label>
       </div>
     </div>
     <label for="exampleMessage">難易度</label>
