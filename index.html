@@ -64,11 +64,11 @@
   <form method="post" action="receive.php">
     <div class="row">
       <div class="four columns">
-        <label for="exampleEmailInput">料理名</label>
+        料理名
         <input class="u-full-width" type="text" placeholder="料理名を入力してください" id="exampleEmailInput" name="recipe_name">
       </div>
       <div class="four columns">
-        <label for="exampleRecipientInput">カテゴリ</label>
+        カテゴリ
         <select class="u-full-width" id="exampleRecipientInput" name="category">
           <option value="">選択してください</option>
           <option value="1">和食</option>
@@ -77,17 +77,17 @@
         </select>
       </div>
       <div class="four columns">
-        <label for="radio1">難易度</label><br>
-        <label for="radio1"><input type="radio" name="difficulty" value="簡単" id="radio1">簡単</label>
-        <label for="radio2"><input type="radio" name="difficulty" value="普通" id="radio2">普通</label>
-        <label for="radio3"><input type="radio" name="difficulty" value="難しい" id="radio3">難しい</label>
+        難易度<br>
+        <input type="radio" name="difficulty"value="" checked="checked" style="display:none;">
+        <label for="radio1"><input type="radio" name="difficulty" value="1" id="radio1">簡単</label>
+        <label for="radio2"><input type="radio" name="difficulty" value="2" id="radio2">普通</label>
+        <label for="radio3"><input type="radio" name="difficulty" value="3" id="radio3">難しい</label>
       </div>
     </div>
     <div class="row">
       <div class="six columns"><label for="budget">予算<input type="text" id="budget" class="u-full-width" placeholder="金額を入力してください" name="budget"></label></div>
       <div class="six columns"><label for="howto">作り方<textarea name="howto" id="howto" class="u-full-width"></textarea></label></div>
     </div>
-    
 
     <input class="button-primary" type="submit" value="Submit">
   </form>
