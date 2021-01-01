@@ -2,6 +2,7 @@
 <html lang="ja">
 
 <head>
+<<<<<<< Updated upstream
 <title>Document</title>
 <!-- 　　　 -->
 <meta charset="UTF-8">
@@ -41,6 +42,46 @@
   }
 
   label{display:inline;margin-bottom: auto;font-weight: normal}
+=======
+  <title>Document</title>
+  <!-- 　　　 -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+
+  <!--<link rel="stylesheet" href="css/bootstrap-reboot.css">-->
+
+
+  <script src=""></script>
+  <style>
+    body {
+      padding: 0;
+      margin: 0;
+      height: 100vh
+    }
+
+    .parent {
+      position: relative;
+      background: orange;
+      height: 100%;
+    }
+
+    .parent div {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      text-align: center;
+      background: white;
+      padding: 3rem;
+    }
+
+>>>>>>> Stashed changes
   </style>
 </head>
 
@@ -94,10 +135,20 @@
 </div>
 
 
+<<<<<<< Updated upstream
 <!--<div class="parent">
   <div>
     <h4>入力</h4>
     <form method="post" action="receive.php">
+=======
+
+  <div>ボックスのサイズは？</div>
+
+  <div class="parent">
+    <div>
+      <h4>入力</h4>
+      <!--<form method="post" action="receive.php">
+>>>>>>> Stashed changes
       項目名：<input type="text" name="recipe_name" required>
       <br>
       <div class="row">
@@ -117,6 +168,7 @@
       <br>
 
       <input type="submit" value="送信" class="button-primary">
+<<<<<<< Updated upstream
     </form>
   </div>
   <h1>見出しh1</h1>
@@ -135,6 +187,52 @@
   <p style="font-size:6rem">フォントサイズは6rem</p>-->
 
 
+=======
+    </form>-->
+      <div class="container">
+        <form>
+          <div class="row">
+            <div class="six columns">
+              <label for="exampleEmailInput">Your email</label>
+              <input class="u-full-width" type="email" placeholder="test@mailbox.com" id="exampleEmailInput">
+            </div>
+            <div class="six columns">
+              <label for="exampleRecipientInput">Reason for contacting</label>
+              <select class="u-full-width" id="exampleRecipientInput">
+                <option value="Option 1">Questions</option>
+                <option value="Option 2">Admiration</option>
+                <option value="Option 3">Can I get your number?</option>
+              </select>
+            </div>
+          </div>
+          <label for="exampleMessage">Message</label>
+          <textarea class="u-full-width" placeholder="Hi Dave …" id="exampleMessage"></textarea>
+          <label class="example-send-yourself-copy"> <input type="checkbox"> <span class="label-body">Send a copy to yourself</span> </label>
+          <input class="button-primary" type="submit" value="Submit">
+        </form>
+      </div>
+    </div>
+
+
+
+
+    <h1>見出しh1</h1>
+    <h2>見出しh2</h2>
+    <h3>見出しh3</h3>
+    <h4>見出しh4</h4>
+    <h5>見出しh5</h5>
+    <h6>見出しh6</h6>
+    <p>フォントサイズは指定なし</p>
+    <p style="font-size:1.4rem">フォントサイズは1.4rem</p>
+    <p style="font-size:1rem">フォントサイズは1rem</p>
+    <p style="font-size:2rem">フォントサイズは2rem</p>
+    <p style="font-size:3rem">フォントサイズは3rem</p>
+    <p style="font-size:4rem">フォントサイズは4rem</p>
+    <p style="font-size:5rem">フォントサイズは5rem</p>
+    <p style="font-size:6rem">フォントサイズは6rem</p>
+  </div>
+
+>>>>>>> Stashed changes
 
 </body>
 
